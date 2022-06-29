@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Tela De Criar Conta</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wapper">
+            <h1>Criar Conta</h1>
+
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" placeholder="Digite Seu Nome">
+
+            <p id="alerta1"></p>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Digite Seu Email">
+
+            <p id="alerta2"></p>
+
+            <label for="senha">Crie Uma Senha</label>
+            <input id="senha" type="password" name="senha" placeholder="Digite Sua Senha">
+
+            <p id="alerta3"></p>
+
+            <label for="ConfirmaSenha">Confirme Sua Senha</label>
+            <input id="confiSenha" type="password" name="ConfirmaSenha" placeholder="Confirme Sua Senha">
+
+            <p id="alerta4"></p>
+
+            <button onclick="validacao()">Criar Conta</button>
+
+            <h3>Faça Login Usando Uma Das Opções Abaixo:</h3>
+
+            <div class="icons">
+                <a href="#"><img src="./img-icons/gmail.png" alt="Gmail"></a>
+                <a href="#"><img src="./img-icons/outlook.png" alt="Outlook"></a>
+                <a href="#"><img src="./img-icons/github.png" alt="GitHub"></a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
